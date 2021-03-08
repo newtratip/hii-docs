@@ -1,6 +1,6 @@
 # Topic 1
 
-This is topic 1
+This is Topic 1
 
 ## Topic 1.1
 
