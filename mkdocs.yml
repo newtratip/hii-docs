@@ -8,8 +8,7 @@ theme: readthedocs
 nav:  # Content organization
     - Home: index.md
     - Overview: overview.md
-    - Some More Topics:
-        - Topic 1: some_topic/topic1.md
+    - program allocaiton : budget_process/allocation.md
 markdown_extensions:
     - toc:  # For link for hearders, H1, H2, etc.
         permalink: "#"  
