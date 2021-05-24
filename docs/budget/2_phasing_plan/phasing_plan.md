@@ -9,24 +9,31 @@ Menu :: Budgeting > Budgeting > Budget Control Sheet
 1. เลือก Budget Control Sheet ที่ต้องการ เพื่อ Export เอกสารให้พนักงานทั่วไปวางแผนการใช้จ่ายงบประมาณ
 2. กดปุ่ม "Action"
 3. กดปุ่ม "Export Excel" เพื่อ Export Budget Control Sheet ทั้งหมดที่เลือกในข้อ 1.
+
     ![export](img/export_bcs.png)
+
 4. ระบบแสดงหน้าต่าง ดังนี้
+
     ![export2](img/export2.png)
+
 5. หลังจากกด Export ระบบแสดงหน้าต่าง กดที่ "file.zip" เพื่อดาวน์โหลด ไฟล์ Excel Budget Control Sheet ทั้งหมดที่เลือกในข้อ 1
+
     ![export3](img/export3.png)
 
+!!! Note
     ฝ่ายแผน ส่ง Excel File ให้พนักงานทั่วไปของสสน. วางแผนการใช้จ่าย เมื่อได้รับ Excel File ที่วางแผนการใช้จ่ายงบประมาณเสร็จสิ้น
-
-    **Note** :: ตัวอย่างการวางแผนใน Excel file
+    
+    ตัวอย่างการวางแผนใน Excel file
     ![eg phasing plan](img/eg_phasing.png)
+    ตรวจสอบยอดรวมของเงินที่วางแผน จะต้องเท่ากับ Released (ยอดเงินที่ใช้ได้ปัจจุบัน)
 
-6. ตรวจสอบยอดรวมของเงินที่วางแผน จะต้องเท่ากับ Released (ยอดเงินที่ใช้ได้ปัจจุบัน)
-     
-    เริ่มขั้นตอนการ Import Excel เข้าระบบ
 
 ## การ Import Excel Budget Control Sheet เข้าระบบ
 
 Menu :: Budgeting > Budgeting > Budget Control Sheet
+
+!!! Note
+    เมื่อได้รับ Excel file แผนการใช้จ่ายงบประมาณจากพนักงานทั่วไป ตรวจสอบข้อมูล ความถูกต้อง และเริ่มนำ excel file เข้าระบบ
 
 เลือก Budget Control Sheet ที่ต้องการ Import เข้าระบบ
 
