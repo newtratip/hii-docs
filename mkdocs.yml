@@ -1,6 +1,6 @@
 # Copyright (c) 2021 Ecosoft Co., Ltd.
 
-site_name: Your Project Name
+site_name: Odoo for HII
 copyright: Copyright &copy; 2021 Ecosoft Co., Ltd.
 repo_url: https://github.com/ecosoft-odoo/eco_mkdocs  # Add edit on github link
 edit_uri: edit/master/docs  # Point to master branch
