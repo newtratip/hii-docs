@@ -29,6 +29,22 @@
 
     ![](img/confirm_project.png)
 
+
+#### การสร้าง Project ย่อยภายใต้ Parent Project
+
+1. เลือกโครงการที่ต้องการสร้างโครงการย่อย
+    1. กดปุ่ม "Action"
+    2. กดปุ่ม "Split Project"
+
+    ![](img/split_project.png)
+
+2. ระบจะสร้างโครงการใหม่ โดยมี Parent Project เป็นโครงการที่ Split ออกมา
+    - ระบบจะตั้งชื่อ โดยมี (copy) ต่อท้ายชื่อ
+    - กดปุ่ม "Edit" เพื่อแก้ไขชื่อโครงการ
+    - ถูกต้องครบถ้วน กดปุ่ม "Save" เพื่อบันทึกข้อมูล
+
+    ![](img/split_project_2.png)
+
     **สิ้นสุดการสร้าง Project**
 
 ### การสร้างข้อมูล Analytic Account
