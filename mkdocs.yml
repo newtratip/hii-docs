@@ -6,7 +6,7 @@ repo_url: https://github.com/ecosoft-odoo/eco_mkdocs  # Add edit on github link
 edit_uri: edit/master/docs  # Point to master branch
 theme: readthedocs
 nav:  # Content organization
-    - Home: index.md
+    #- Home: index.md
     #- Overview: overview.md
     - "Budgeting":
         - ภาพรวมระบบงบประมาณ (Overview) : budget/overview.md
