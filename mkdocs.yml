@@ -8,6 +8,7 @@ theme: readthedocs
 nav:  # Content organization
     - Home: index.md
     #- Overview: overview.md
+    - master data : budget/0_master_data/master_data.md
     - program allocaiton : budget/1_program_allocation/allocation.md
     - phasing plan : budget/2_phasing_plan/phasing_plan.md
     - phansing plan in system : budget/2_phasing_plan/phasing_plan_manual.md
