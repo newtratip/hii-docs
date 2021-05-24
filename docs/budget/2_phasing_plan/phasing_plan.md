@@ -20,7 +20,9 @@ Menu :: Budgeting > Budgeting > Budget Control Sheet
     **Note** :: ตัวอย่างการวางแผนใน Excel file
     ![eg phasing plan](img/eg_phasing.png)
 
-    ตรวจสอบข้อมูล หากถูกต้องครบถ้วน เริ่มขั้นตอนการ Import Excel เข้าระบบ
+6. ตรวจสอบยอดรวมของเงินที่วางแผน จะต้องเท่ากับ Released (ยอดเงินที่ใช้ได้ปัจจุบัน)
+     
+    เริ่มขั้นตอนการ Import Excel เข้าระบบ
 
 ## การ Import Excel Budget Control Sheet เข้าระบบ
 

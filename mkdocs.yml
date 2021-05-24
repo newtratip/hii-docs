@@ -10,6 +10,7 @@ nav:  # Content organization
     #- Overview: overview.md
     - program allocaiton : budget/1_program_allocation/allocation.md
     - phasing plan : budget/2_phasing_plan/phasing_plan.md
+    - phansing plan in system : budget/2_phasing_plan/phasing_plan_manual.md
 markdown_extensions:
     - toc:  # For link for hearders, H1, H2, etc.
         permalink: "#"  
