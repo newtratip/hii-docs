@@ -15,6 +15,8 @@ nav:  # Content organization
         - การวางแผนการใช้จ่ายและการอนุมัติ : budget/2_phasing_plan/phasing_plan.md
         - การวางแผนการใช้จ่ายบนระบบ : budget/2_phasing_plan/phasing_plan_manual.md
         - การวางแผนการใช้จ่ายบน Excel : budget/2_phasing_plan/phasing_plan_excel.md
+        - รายงาน Budget Monitoring : budget/99_monitoring/1_budget_monitoring.md
+        - รายงาร Source of Fund Monitoring : budget/99_monitoring/2_sof_monitoring.md
 markdown_extensions:
     - toc:  # For link for hearders, H1, H2, etc.
         permalink: "#"  

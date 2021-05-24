@@ -25,7 +25,7 @@
 
     ![](img/edit_project.png)
 
-3. กดปุ่ม Confirm ระบบจะเปลี่ยนสถานะเป็น Confirmed
+3. กดปุ่ม "Confirm" ระบบจะเปลี่ยนสถานะเป็น Confirmed 
 
     ![](img/confirm_project.png)
 
@@ -41,6 +41,9 @@
     3. กดปุ่ม "Create Analytic"
 
     ![](img/create_aa.png)
+
+!!! Note 
+    Project สถานะ  Confirmed เท่านั้นถึงจะสามารถสร้าง Analytic Account ได้
 
 2. ระบบแสดงหน้าต่าง
     1. Budget Period: ปีงบประมาณของ Analytic Account
