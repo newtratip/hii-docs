@@ -94,3 +94,12 @@
 !!! Note
     กรณีเลือก Method เป็น New Analytic แล้วต้องการให้ระบบช่วยใส่ Carry Forward Analytic Account ให้ สามารถใช้การกดปุ่ม "Prepare carry forward analytic account" ได้
     ![](img/prepare_aa.png)
+
+## ขั้นตอนการตรวจสอบข้อมูลเอกสาร Budget Carry Forward และยกยอดงบประมาณ
+
+**Menu ::** Budgeting > Budgeting > Budget Carry Forward
+
+1. เลือกเอกสาร Budget Carry Forward ที่ต้องการ
+2. กดปุ่ม "Carry Budget Forward"
+
+![](img/carry_budget_forward.png)
