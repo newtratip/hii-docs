@@ -11,7 +11,7 @@ nav:  # Content organization
     - "Budgeting":
         - ภาพรวมระบบงบประมาณ (Overview) : budget/overview.md
         - Master Data : budget/0_master_data/master_data.md
-        - การแจกกรอบงบประมาณ : budget/1_program_allocation/allocation.md
+        - การแจกกรอบงบประมาณ : budget/1_budget_allocation/allocation.md
         - การวางแผนการใช้จ่ายและการอนุมัติ : budget/2_phasing_plan/phasing_plan.md
         - การวางแผนการใช้จ่ายบนระบบ : budget/2_phasing_plan/phasing_plan_manual.md
         - การวางแผนการใช้จ่ายบน Excel : budget/2_phasing_plan/phasing_plan_excel.md
