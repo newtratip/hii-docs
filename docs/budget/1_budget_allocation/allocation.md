@@ -1,18 +1,18 @@
 # การแจกกรอบงบประมาณ
-กระบวนการแจกกรอบงบประมาณ (Program Allocation)
+กระบวนการแจกกรอบงบประมาณ (Budget Allocation)
 
 ขั้นตอนการแจกกรอบงบประมาณ มีดังนี้
 
-1. แจกกรอบงบประมาณตามแผนงาน, กลุ่มงบประมาณ และ ประเภทงบประมาณ (Program Allocation)
+1. แจกกรอบงบประมาณตามแผนงาน, กลุ่มงบประมาณ และ ประเภทงบประมาณ (Budget Allocation)
 2. ตรวจสอบข้อมูลการแจกกรอบงบประมาณ ในมุมมอง Analytic Account (Budget Plan)
 
 ขั้นตอนการทำงาน
 
-### แจกกรอบงบประมาณตามแผนงาน, กลุ่มงบประมาณ และ ประเภทงบประมาณ (Program Allocation)
+### แจกกรอบงบประมาณตามแผนงาน, กลุ่มงบประมาณ และ ประเภทงบประมาณ (Budget Allocation)
 
-Menu :: Budgeting > Budgeting > Program Allocation
+Menu :: Budgeting > Budgeting > Budget Allocation
 
-กดปุ่ม "Create" เพื่อสร้างการแจกกรอบงบประมาณ (Program Allocation)
+กดปุ่ม "Create" เพื่อสร้างการแจกกรอบงบประมาณ (Budget Allocation)
 
 1. ตั้งชื่อเอกสารสำหรับการแจกกรอบงบประมาณ
 2. Budget Period: เลือกปีงบประมาณ
@@ -25,19 +25,19 @@ Menu :: Budgeting > Budgeting > Program Allocation
     * ถ้าต้องการแก้ไข กด “Edit”
     * ถ้าข้อมูลถูกต้องครบถ้วน ยืนยันการจัดสรรงบประมาณ กด "Done" สถานะเอกสารเปลี่ยนจาก Draft เป็น Done
 
-    ![create program allocation](img/program_allocation.png)
+    ![create budget allocation](img/program_allocation.png)
 
 5. ระบบแสดงปุ่ม "Generate Budget Plan" กดเพื่อสร้างเอกสาร Budget Plan
  
     ![generate budget plan](img/generate_bp.png)
 
-สิ้นสุดการทำงานที่หน้า Program Allocation
+สิ้นสุดการทำงานที่หน้า Budget Allocation
 
 ### ตรวจสอบข้อมูลการแจกกรอบงบประมาณ ในมุมมอง Analytic Account (Budget Plan)
 
 Menu :: Budgeting > Budgeting > Budget Plan
 
-เลือก Budget Plan ที่สร้างจาก Program Allocation
+เลือก Budget Plan ที่สร้างจาก Budget Allocation
 
 1. ตรวจสอบข้อมูลตาม Analytic Account
 2. ข้อมูลถูกต้องครบถ้วนแล้ว กด "Confirm" สถานะเอกสารเปลี่ยนจาก Draft > Confirmed

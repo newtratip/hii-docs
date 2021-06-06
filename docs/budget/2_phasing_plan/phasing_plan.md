@@ -65,7 +65,7 @@ Menu :: Budgeting > Budgeting > Budget Control Sheet
         
 Menu :: Budgeting > Budgeting > Budget Plan
 
-1. เลือก Budget Plan (Revision 0) ที่สร้างจาก Program Allocation ตอนต้นปี สถานะเอกสารอยู่ที่ Done
+1. เลือก Budget Plan (Revision 0) ที่สร้างจาก Budget Allocation ตอนต้นปี สถานะเอกสารอยู่ที่ Done
       - กดปุ่ม "New Revision" 
         ![revision 0](img/revision0.png)
 2. ระบบจะสร้าง Budget Plan (Revision 1) สถานะเอกสารอยู่ที่ Draft
