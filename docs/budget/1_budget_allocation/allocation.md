@@ -20,12 +20,12 @@ Menu :: Budgeting > Budgeting > Budget Allocation
     * แหล่งทุน (Fund) ระบบจะแสดงกลุ่มของแหล่งทุน (Fund Group) ให้อัตโนมัติ
     * Analytic Account 
     * Analytic tags (กลุ่มงบประมาณ, แผนงาน, ประเภทงบประมาณ)
-    * Fund Amount จำนวนเงินงบประมาณที่จัดสรรให้ข้อมูลบรรทัดนั้น
+    * Allocated จำนวนเงินงบประมาณที่จัดสรรให้ข้อมูลบรรทัดนั้น
 4. เมื่อจัดสรรงบประมาณครบถ้วนแล้ว กด "Save" เพื่อบันทึกข้อมูล และตรวจสอบความถูกต้องอีกครั้ง สถานะเอกสารยังคงเป็น Draft
     * ถ้าต้องการแก้ไข กด “Edit”
     * ถ้าข้อมูลถูกต้องครบถ้วน ยืนยันการจัดสรรงบประมาณ กด "Done" สถานะเอกสารเปลี่ยนจาก Draft เป็น Done
 
-    ![create budget allocation](img/program_allocation.png)
+    ![create budget allocation](img/budget_allocation.png)
 
 5. ระบบแสดงปุ่ม "Generate Budget Plan" กดเพื่อสร้างเอกสาร Budget Plan
  

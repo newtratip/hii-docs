@@ -62,11 +62,9 @@
     Project สถานะ  Confirmed เท่านั้นถึงจะสามารถสร้าง Analytic Account ได้
 
 2. ระบบแสดงหน้าต่าง
-    1. Budget Period: ปีงบประมาณของ Analytic Account
-    2. Group: กลุ่มของ Analytic
-    3. กดปุ่ม "Create Analytic Account"
-    
-    ![](img/create_aa_2.png)
+    1. Budget Period: เลือกปีงบประมาณของ Analytic Account
+    2. กดปุ่ม "Create Analytic Account"
+    ![](img/create_aa4.png)
 
 3.  ระบบจะสร้างและไปยังหน้า Analytic Account
 

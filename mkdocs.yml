@@ -16,6 +16,7 @@ nav:  # Content organization
         - การวางแผนการใช้จ่ายบนระบบ : budget/2_phasing_plan/phasing_plan_manual.md
         - การวางแผนการใช้จ่ายบน Excel : budget/2_phasing_plan/phasing_plan_excel.md
         - การโอนงบประมาณ : budget/3_budget_transfer/budget_transfer.md
+        - การปรับแผน : budget/5_budget_revision/revision.md
         - การปิดปีและยกยอดงบประมาณ : budget/4_carry_forward/carry_forward.md
         - รายงาน Budget Monitoring : budget/99_monitoring/1_budget_monitoring.md
         - รายงาน Source of Fund Monitoring : budget/99_monitoring/2_sof_monitoring.md
