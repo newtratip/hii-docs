@@ -12,9 +12,9 @@
 
 **Menu ::** Budgeting > Budgeting > Budget Control Sheet
 
-1. เข้าไปที่หน้า Budget Control Sheet และเลือก Budget Control Sheet ทั้งหมดที่ Status เป็น Controlled อยู่
+1. เข้าไปที่หน้า Budget Control Sheet และเลือก Budget Control Sheet ทั้งหมด
 2. กดปุ่ม Action 
-3. กดปุ่ม Cancel เพื่อเปลี่ยนสถานะเอกสารจาก Control เป็น Cancel เพื่อหยุดการเบิกใช้งบประมาณ
+3. กดปุ่ม Cancel เพื่อเปลี่ยนสถานะเอกสารเป็น Cancel เพื่อหยุดการใช้งบประมาณ
 
 ![](img/cancel_budget_control.png)
 
@@ -103,3 +103,11 @@
 2. กดปุ่ม "Carry Budget Forward"
 
 ![](img/carry_budget_forward.png)
+
+## วิธีการดูรายงานหลังจากทำ Budget Carry Forward เสร็จสิ้น
+
+1. รายละเอียดแสดง Commitment ทั้งหมด สามารถดูได้ที่ Budget Monitoring
+    ![](img/monitoring.png)
+
+2. ยอดรวมทั้งหมดที่ยกไปในปีงบประมาณถัดไป สามารถดูได้ที่หน้า Analytic Account ที่คอมลัมน์ Initial Amount จะแสดงถึง ยอดคงเหลือยกมา และ Commitment
+    ![](img/analytic_account.png)
