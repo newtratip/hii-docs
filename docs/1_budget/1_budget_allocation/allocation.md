@@ -48,7 +48,7 @@ Menu :: Budgeting > Budgeting > Budget Plan
     ระบบแสดงหน้าต่างแสดงการสร้าง Budget Control Sheet กดปุ่ม "Close"
     ![close](img/close.png)
 
-4. ตรวจสอบข้อมูล Budget Control Sheet ที่สร้าง 
+4. ตรวจสอบข้อมูล Budget Control Sheet ที่สร้าง
 
     ![verlify BCS](img/bcs.png)
 
