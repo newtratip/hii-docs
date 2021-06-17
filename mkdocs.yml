@@ -9,17 +9,8 @@ nav:  # Content organization
     #- Home: index.md
     #- Overview: overview.md
     - "Budgeting":
-        - ภาพรวมระบบงบประมาณ (Overview) : budget/overview.md
-        - Master Data : budget/0_master_data/master_data.md
-        - การแจกกรอบงบประมาณ : budget/1_budget_allocation/allocation.md
-        - การวางแผนการใช้จ่ายและการอนุมัติ : budget/2_phasing_plan/phasing_plan.md
-        - การวางแผนการใช้จ่ายบนระบบ : budget/2_phasing_plan/phasing_plan_manual.md
-        - การวางแผนการใช้จ่ายบน Excel : budget/2_phasing_plan/phasing_plan_excel.md
-        - การโอนงบประมาณ : budget/3_budget_transfer/budget_transfer.md
-        - การปรับแผน : budget/5_budget_revision/revision.md
-        - การปิดปีและยกยอดงบประมาณ : budget/4_carry_forward/carry_forward.md
-        - รายงาน Budget Monitoring : budget/99_monitoring/1_budget_monitoring.md
-        - รายงาน Source of Fund Monitoring : budget/99_monitoring/2_sof_monitoring.md
+        - ภาพรวมระบบงบประมาณ (Overview) : 1_budget/overview.md
+        - การ Setting ระบบ : 1_budget/config.md
 markdown_extensions:
     - toc:  # For link for hearders, H1, H2, etc.
         permalink: "#"  
@@ -30,5 +21,4 @@ plugins:
         cover_title: HII Project Documentation
         cover_subtitle: Odoo ERP for HII
         cover_logo: ecosoft.png
-        author: Kitti U. <kittiu@ecosoft.co.th>
-
+        author: Ecosoft
