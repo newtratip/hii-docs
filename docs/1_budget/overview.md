@@ -17,8 +17,9 @@
 
 ## รายงาน (Budget Monitoring)
 
-1. [รายงานการใช้จ่ายงบประมาณ](1_budget/../99_monitoring/1_budget_monitoring.md)
-2. [รายงานแหล่งทุนและการแจกกรอบงบประมาณ](1_budget/../99_monitoring/2_sof_monitoring.md)
+1. [Budget Monitoring](1_budget/../6_monitoring/1_budget_monitoring.md)
+2. [Budget Revision Monitoring](1_budget/../6_monitoring/2_revision_monitoring.md)
+3. [Source of Fund Monitoring](1_budget/../6_monitoring/3_sof_monitoring.md)
 
 ## User Roles
 
@@ -33,3 +34,6 @@
          3. Budget Monitoring
 
 ## Use Case
+
+1. [Source of Fund Monitoring](1_budget/../9_use_case/1_budget_transfer_not_allocation.md)
+2. 
