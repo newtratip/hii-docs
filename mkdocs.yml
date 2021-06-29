@@ -8,9 +8,11 @@ theme: readthedocs
 nav:  # Content organization
     #- Home: index.md
     #- Overview: overview.md
-    - "Budgeting":
-        - ภาพรวมระบบงบประมาณ (Overview) : 1_budget/overview.md
-        - การ Setting ระบบ : 1_budget/config.md
+    - "[[Deliverable 2 - Budgeting]]":
+        - Overview: deliverable_2/1_budget/bg1_overview.md
+        - System Config: deliverable_2/1_budget/bg2_config.md
+        - Budget Manager: deliverable_2/1_budget/bg3_for_manager.md
+        - Budget User: deliverable_2/1_budget/bg4_for_user.md
 markdown_extensions:
     - toc:  # For link for hearders, H1, H2, etc.
         permalink: "#"  
