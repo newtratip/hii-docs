@@ -35,5 +35,4 @@
 
 ## Use Case
 
-1. [Source of Fund Monitoring](1_budget/../9_use_case/1_budget_transfer_not_allocation.md)
-2. 
+1. [การโอนงบประมาณให้ Cost Center ที่ไม่เคยได้รับการจัดสรรงบประมาณตอนต้นปี](1_budget/../9_use_case/1_budget_transfer_not_allocation.md)
