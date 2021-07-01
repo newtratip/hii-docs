@@ -175,24 +175,29 @@
 
 ### ตรวจสอบข้อมูลการแจกกรอบงบประมาณ ในมุมมอง Analytic Account (Budget Plan)
 
+ระบบสร้าง Budget Plan สถานะเอกสารอยู่ที่ To Verify รอหัวหน้างานยุทธศาสตร์แผนงานและงบประมาณ Verify
+![](img/2_budget_allocation/to_verify.png)
+
+หลังจากหัวหน้างานยุทธศาสตร์แผนงานและงบประมาณ Verify เสร็จแล้วสถานะเอกสารอยู่ Confirmed
+![](img/2_budget_allocation/verify.png)
+
 **Menu ::** Budgeting > Budgeting > Budget Plan
 
 เลือก Budget Plan ที่สร้างจาก Budget Allocation
 
 1. ตรวจสอบข้อมูลตาม Analytic Account
-2. ข้อมูลถูกต้องครบถ้วนแล้ว กด "Confirm" สถานะเอกสารเปลี่ยนจาก Draft > Confirmed
-3. กดปุ่ม "Create/Update Budget Control" เพื่อสร้าง Budget Control Sheet
+2. กดปุ่ม "Create/Update Budget Control" เพื่อสร้าง Budget Control Sheet
     
     ![budget plan](img/2_budget_allocation/budget_plan.png)
 
     ระบบแสดงหน้าต่างแสดงการสร้าง Budget Control Sheet กดปุ่ม "Close"
     ![close](img/2_budget_allocation/close.png)
 
-4. ตรวจสอบข้อมูล Budget Control Sheet ที่สร้าง
+3. ตรวจสอบข้อมูล Budget Control Sheet ที่สร้าง
 
     ![verlify BCS](img/2_budget_allocation/bcs.png)
 
-5. หากถูกต้องครบถ้วน กลับมาที่ Menu :: Budget Plan กดปุ่ม "Done" เพื่อสิ้นสุดขั้นตอนการแจกกรอบงบประมาณ
+4. หากถูกต้องครบถ้วน กลับมาที่ Menu :: Budget Plan กดปุ่ม "Done" เพื่อสิ้นสุดขั้นตอนการแจกกรอบงบประมาณ
     สถานะเอกสารเปลี่ยนจาก Confirmed > Done
 
 สิ้นสุดการทำงานที่หน้า Budget Plan
@@ -290,10 +295,10 @@
 1. เลือก Budget Plan (Revision 0) ที่สร้างจาก Budget Allocation ตอนต้นปี สถานะเอกสารอยู่ที่ Done
       - กดปุ่ม "New Revision" 
         ![revision 0](img/4_keep_v0/revision0.png)
-2. ระบบจะสร้าง Budget Plan (Revision 1) สถานะเอกสารอยู่ที่ Draft
+2. ระบบจะสร้าง Budget Plan (Revision 1) สถานะเอกสารอยู่ที่ Draft (เจ้าหน้าที่แผนจะทำรายการต่อไม่ได้จนกว่าจะได้รับการ Verify จากหัวหน้างานยุทธศาสตร์แผนงานและงบประมาณ)
+      - เมื่อได้รับการ Verify เสร็จแล้วระบบจะส่งเอกสารสู่ขั้นตอนการอนุมัติโดย ผสสน.
+        ![verify done](img/4_keep_v0/request_tier.png)
 
-      - กดปุ่ม "Request Validation" เพื่อส่งอนุมัติกรอบงบประมาณ
-        ![revision 1](img/4_keep_v0/revision1.png)
       - ระบบจะแสดงที่ Tab "Reviews" แสดงลำดับและสถานะการอนุมัติ
         ![revision 1](img/4_keep_v0/approved_revision1.png)
 
@@ -309,8 +314,7 @@
       1. กดเพื่อเลือก Budget Control Sheet ทั้งหมด
       2. กดปุ่ม "Action"
       3. กดปุ่ม "Control" เพื่อเริ่มการใช้จ่ายงบประมาณ
-
-        ![Create BCS](img/4_keep_v0/control_v1.png)
+    ![Create BCS](img/4_keep_v0/control_v1.png)
 
 5. หลังจาก "Control" Budget Control Sheet Revision 1 เสร็จสิ้น 
 6. กลับมาที่ Menu :: Budget Plan กดปุ่ม "Done" เพื่อเปลี่ยนสถานะเอกสารจาก Confirmed เป็น Done เพื่อสิ้นสุดการทำงานของฝ่ายแผน
@@ -354,13 +358,13 @@
 
 7. กลับมาที่ **Menu ::** Budgeting > Budgeting > Budget Plan
     - กดปุ่ม "Generate Plan"
-    ![](img/6_budget_revision/Selection_354.png)
+    ![](img/6_budget_revision/generate_plan.png)
     - ระบบจะอัพเดตข้อมูลกรอบงบประมาณใหม่ที่แก้ไขในหน้า Budget Allocaiton
-        - ถูกต้องครบถ้วน กดปุ่ม "Restart Validation" เพื่อเริ่มขออนุมัติกรอบงบประมาณบนระบบ
+        - ถูกต้องครบถ้วน สถานะเอกสารอยู่ที่ To verify แจ้งหัวหน้างานยุทธศาสตร์แผนงานและงบประมาณเพื่อทำการ Verify และส่งอนุมัติ
         - หากต้องการแก้ไข จะต้องการไปแก้ที่หน้า Budget Allocation ตามข้อ 4-6
-    ![](img/6_budget_revision/Selection_355.png)
+    ![](img/6_budget_revision/to_verify.png)
 
-8. เมื่อได้รับการอนุมัติ เรีบยร้อยแล้ว
+8. เมื่อได้รับการอนุมัติ เรียบร้อยแล้ว
     - ไปที่ **Menu ::** Budgeting > Budgeting > Budget Control Sheet
         1. เลือก Budget Control Sheet ทั้งหมด
         2. กดปุ่ม "Action"
@@ -379,6 +383,23 @@
 
 10. กดปุ่ม "Done" เพื่อสิ้นสุดการปรับแผน สถานะเอกสารเปลี่ยนจาก Confirmed เป็น Done
     ![](img/6_budget_revision/Selection_359.png)
+
+#### การขยายเวลา Analytic Account ที่ถูก Extend
+
+!!! Tip "สำหรับ Use Cases"
+    * (2) การขยายเวลาดำเนินโครงการ Analytic Account ที่ถูก Extend
+
+กรณีที่ต้องการขยายเวลาการดำเนินโครงการของ Analytic Account ที่ Extend หลังขั้นตอนการปิดปีงบประมาณ
+
+**Menu ::** Budgeting > Configuration > Analytic Accounts
+
+1. เลือก Analytic Accounts ที่ต้องการขยายเวลา
+    1. กดปุ่ม "Edit"
+    2. ขยายระยะเวลาที่ช่อง Date to
+   ![](img/6_budget_revision/extend.png)
+
+2. ตรวจสอบข้อมูล ถูกต้องครบถ้วน กดปุ่ม "Save" เพื่อบันทึกข้อมูล
+
 
 ## กระบวนการปิดปีและยกยอดงบประมาณ
 
@@ -406,26 +427,29 @@
 
 1. กดปุ่ม "Create" เพื่อสร้างเอกสาร
     ![](img/7_budget_carry_forward/create.png)
+
 2. กรอกข้อมูลในเอกสาร Budget Carry Forward 
     1. Name: ชื่อเอกสาร
     2. To Budget Period: ปีงบประมาณที่ต้องการยกยอดไป
     3. Method: วิธีการยกยอด
         - Extend: ขยายเวลาการใช้จ่ายงบประมาณ
         - New Analytic: ยกยอดไป Analytic Account ใหม่
-    4. Accumulated Analytic Account: Analytic Account สะสม
+    4. Accumulated Analytic Account: Analytic Account สำหรับเก็บเงินสะสม
 
     ![](img/7_budget_carry_forward/carry_forward.png)
 
-3. ตรวจสอบข้อมูล หากถูกต้องครบถ้วนกดปุ่ม "Save" 
+3. ตรวจสอบข้อมูล
+    - หากถูกต้องครบถ้วนกดปุ่ม "Save"
+    - หากต้องการแก้ไขกดปุ่ม "Edit"
 
-การยกยอดข้ามปี แบ่งออกเป็น 2 กรณี ดังนี้
+การยกยอดข้ามปี แบ่งออกเป็น 2 แบบ ดังนี้
 
-1. กรณียกยอด Commitment
-2. กรณียกยอด เงินคงเหลือ
+1. ยกยอด Commitment
+2. ยกยอด เงินคงเหลือ
 
-ซึ่งในแต่ละกรณีมีขั้นตอนการทำงาน ดังนี้
+ซึ่งในแต่ละแบบมีขั้นตอนการทำงาน ดังนี้
 
-#### 1. กรณียกยอด Commitment
+#### 1. ยกยอด Commitment
 
 การยกยอด Commitment คือ การยกยอดค่าใช้จ่ายที่มีการของบประมาณไปแล้ว แต่ยังไม่ได้จ่ายจริง
 
@@ -435,13 +459,16 @@
     - Advance
     - Expense
 2. กดปุ่ม List purchase request commitment (ชื่อปุ่มจะเปลี่ยนตาม Tab ที่เลือก)
-3. ระบบจะดึงข้อมูลค่าใช้จ่ายที่มีการของบประมาณไปแล้ว แต่ยังไม่ได้จ่ายจริงมาแสดง
+3. ระบบจะดึงข้อมูลค่าใช้จ่ายที่มีการจองงบประมาณไปแล้ว แต่ยังไม่ได้จ่ายจริงมาแสดง
 
     ![](img/7_budget_carry_forward/carry_forward_commitment.png)
 
-4. ตรวจสอบข้อมูล หากไม่ถูกต้องกดปุ่ม "Edit" เพื่อแก้ไขให้ถูกต้อง และหากถูกต้องครบถ้วนกดปุ่ม "Save" 
+4. ทำข้อ 1-3 จนครบทุก Tab
+5. ตรวจสอบข้อมูล
+    - หากถูกต้องครบถ้วนกดปุ่ม "Save"
+    - หากต้องการแก้ไข กดปุ่ม "Edit"
 
-#### 2. กรณียกยอด เงินคงเหลือ
+#### 2. ยกยอด เงินคงเหลือ
 
 การยกยอดเงินคงเหลือ คือ การยกยอดงบประมาณที่ไม่มีการขอใช้
 
@@ -465,26 +492,43 @@
 
     ![](img/7_budget_carry_forward/carry_forward_available_line.png)
 
+    ตัวอย่างการยกยอดงบประมาณ
+    1. การยกยอดโครงการที่มีระยะเวลาดำเนินโครงการมากกว่า 1 ปี โดยยกเงินคงเหลือไปทำโครงการต่อในปีถัดไป
+    2. การขยายระยะเวลาการดำเนินโครงการ
+    3. การยกเงินคงเหลือทั้งหมดไปเก็บที่ Analytic Account เงินสะสม โดยที่ไม่มีการดำเนินโครงการต่อในปีงบประมาณถัดไป
+
+    ![](img/7_budget_carry_forward/eg.png)
+
     !!! Note
         ในแต่ละบรรทัดระบบจะดึง default ของ Method กับ Accumulate Analytic Account จากด้านบนเอกสาร
 
     !!! Note
         ถ้าเลือก Method เป็น Extend ไม่ต้องเลือก Carry Forward Analytic Account แต่ถ้าเลือก Method เป็น New Analytic ต้องเลือก Carry Forward Analytic Account
 
-5. เมื่อแก้ไขข้อมูลเรียบร้อยแล้ว กดปุ่ม "Save" เพื่อบันทึกข้อมูล
+5. ตรวจสอบข้อมูล
+    - หากถูกต้องครบถ้วนกดปุ่ม "Save"
+    - หากต้องการแก้ไข กดปุ่ม "Edit"
 
 !!! Note
-    กรณีเลือก Method เป็น New Analytic แล้วต้องการให้ระบบช่วยใส่ Carry Forward Analytic Account ให้ สามารถใช้การกดปุ่ม "Prepare carry forward analytic account" ได้
+    กรณีเลือก Method เป็น New Analytic แล้วต้องการให้ระบบช่วยใส่ Carry Forward Analytic Account ให้สามารถใช้การกดปุ่ม "Prepare carry forward analytic account" ได้
     ![](img/7_budget_carry_forward/prepare_aa.png)
 
 ### ขั้นตอนการตรวจสอบข้อมูลเอกสาร Budget Carry Forward และยกยอดงบประมาณ
 
 **Menu ::** Budgeting > Budgeting > Budget Carry Forward
 
+หลังจากผ่านการ Verify จากหัวหน้างานยุทธศาสตร์แผนงานและงบประมาณ สถานะเอกสารเปลี่ยนจาก To Verify เป็น Verify
+    ![](img/7_budget_carry_forward/state_verify.png)
+ทำการยกยอดงบประมาณต่อ ดังนี้
 1. เลือกเอกสาร Budget Carry Forward ที่ต้องการ
 2. กดปุ่ม "Carry Budget Forward"
 
 ![](img/7_budget_carry_forward/carry_budget_forward.png)
+
+4. ระบบแสดงหน้าต่างให้ตรวจสอบตัวเลขการยกยอดงบประมาณอีกครั้ง
+    1. หากถูกต้องครบถ้วน กดปุ่ม "Carry Budget Forward" เพื่อยกยอดงบประมาณ
+    2. หากต้องการแก้ไข กดปุ่ม "Cancel"
+    ![](img/7_budget_carry_forward/preview.png)
 
 ### วิธีการดูรายงานหลังจากทำ Budget Carry Forward เสร็จสิ้น
 

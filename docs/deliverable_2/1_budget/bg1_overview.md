@@ -37,3 +37,5 @@
 ## Use Case
 
 1. การโอนงบประมาณให้ Cost Center ที่ไม่เคยได้รับการจัดสรรงบประมาณตอนต้นปี
+2. การขยายเวลาดำเนินโครงการ Analytic Account ที่ถูก Extend
+3. การโอนเงินออกจาก Analytic Account ที่ถูก Extend
