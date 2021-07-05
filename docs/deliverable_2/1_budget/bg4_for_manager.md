@@ -49,7 +49,7 @@
 
     ![](img/1_master_data/split.png)
 
-    **สิ้นสุดการสร้าง Project**
+**สิ้นสุดการสร้าง Project**
 
 ### การสร้างข้อมูล Analytic Account จาก Project
 
@@ -79,6 +79,8 @@
 !!! Note
     Analytic Account จากฝ่าย (Department) จะถูกสร้างขึ้นอัตโนมัติ
 
+**สิ้นสุดการสร้าง Analytic Account**
+
 ### การสร้างข้อมูลแหล่งงบประมาณ (Source of Fund)
 
 **Menu ::** Budgeting > Configurations  > Source of Fund
@@ -95,7 +97,7 @@
     - ถูกต้องครบถ้วน กดปุ่ม "Save" เพื่อบันทึกข้อมูล
     - หากต้องการแก้ไขให้กดปุ่ม "Edit"
 
-    **สิ้นสุดกระบวนการสร้าง Source of Fund**
+**สิ้นสุดกระบวนการสร้าง Source of Fund**
 
 ### การสร้างข้อมูลกลุ่มงบประมาณ (Program)
 
@@ -111,6 +113,8 @@
     - ถูกต้องครบถ้วน กดปุ่ม "Save" เพื่อบันทึกข้อมูล
     - หากต้องการแก้ไขให้กดปุ่ม "Edit"
 
+**สิ้นสุดการสร้าง Program**
+
 ### การสร้างข้อมูลแผนงาน (Work Plan)
 
 **Menu ::** Budgeting > Configurations > Work Plan
@@ -125,6 +129,8 @@
     - ถูกต้องครบถ้วน กดปุ่ม "Save" เพื่อบันทึกข้อมูล
     - หากต้องการแก้ไขให้กดปุ่ม "Edit"
 
+**สิ้นสุดการสร้าง Work Plan**
+
 ### การสร้างข้อมูลประเภทงบประมาณ (Budget Type)
 
 **Menu ::** Budgeting > Configurations > Budget Type
@@ -138,6 +144,10 @@
 2. ตรวจสอบข้อมูลให้ถูกต้องครบถ้วน
     - ถูกต้องครบถ้วน กดปุ่ม "Save" เพื่อบันทึกข้อมูล
     - หากต้องการแก้ไขให้กดปุ่ม "Edit"
+
+**สิ้นสุดการสร้าง Budget Type**
+
+------------------------------
 
 ## การแจกกรอบงบประมาณ (Budget Allocation)
 
@@ -171,7 +181,7 @@
  
     ![generate budget plan](img/2_budget_allocation/generate_bp.png)
 
-สิ้นสุดการทำงานที่หน้า Budget Allocation
+**สิ้นสุดการทำงานที่หน้า Budget Allocation**
 
 ### ตรวจสอบข้อมูลการแจกกรอบงบประมาณ ในมุมมอง Analytic Account (Budget Plan)
 
@@ -200,9 +210,9 @@
 4. หากถูกต้องครบถ้วน กลับมาที่ Menu :: Budget Plan กดปุ่ม "Done" เพื่อสิ้นสุดขั้นตอนการแจกกรอบงบประมาณ
     สถานะเอกสารเปลี่ยนจาก Confirmed > Done
 
-สิ้นสุดการทำงานที่หน้า Budget Plan
+**สิ้นสุดการทำงานที่หน้า Budget Plan**
 
-### ขั้นตอนการพิ่ม Analytic Tags หลังจากที่มีการแจกกรอบงบประมาณไปแล้ว
+### การพิ่ม Analytic Tags หลังจากที่มีการแจกกรอบงบประมาณไปแล้ว
 
 !!! Tip "สำหรับ Use Cases"
     * (1) การโอนงบประมาณให้ Cost Center ที่ไม่เคยได้รับการจัดสรรงบประมาณตอนต้นปี
@@ -224,7 +234,9 @@
     - ถูกต้องครบถ้วน กดปุ่ม "Done" เพื่อเปลี่ยนสถานะเอกสารจาก Draft เป็น Done
     - หากต้องการแก้ไข กดปุ่ม "Edit"
 
-สิ้นสุดการเพิ่ม Analytic Tags 
+**สิ้นสุดการเพิ่ม Analytic Tags**
+
+------------------------------
 
 ## กระบวนการวางแผนการใช้จ่ายงบประมาณ
 
@@ -281,6 +293,8 @@
 
 เมื่อ Import Excel จนครบทุก Budget Control Sheet เริ่มขั้นตอนจัดเก็บแผนการใช้จ่ายต้นปี (v.0) และส่งอนุมัติแผนการใช้จ่ายต้นปี (v.1)
 
+------------------------------
+
 ## กระบวนการการจัดเก็บแผนการใช้จ่ายต้นปี (v.0) และส่งอนุมัติแผนการใช้จ่ายต้นปี (v.1)
 
 **Menu ::** Budgeting > Budgeting > Budget Control Sheet
@@ -317,7 +331,9 @@
     ![Create BCS](img/4_keep_v0/control_v1.png)
 
 5. หลังจาก "Control" Budget Control Sheet Revision 1 เสร็จสิ้น 
-6. กลับมาที่ Menu :: Budget Plan กดปุ่ม "Done" เพื่อเปลี่ยนสถานะเอกสารจาก Confirmed เป็น Done เพื่อสิ้นสุดการทำงานของฝ่ายแผน
+6. กลับมาที่ **Menu ::** Budget Plan กดปุ่ม "Done" เพื่อเปลี่ยนสถานะเอกสารจาก Confirmed เป็น Done เพื่อสิ้นสุดการทำงานของฝ่ายแผน
+
+------------------------------
 
 ## กระบวนการปรับแผน
 
@@ -400,6 +416,7 @@
 
 2. ตรวจสอบข้อมูล ถูกต้องครบถ้วน กดปุ่ม "Save" เพื่อบันทึกข้อมูล
 
+------------------------------
 
 ## กระบวนการปิดปีและยกยอดงบประมาณ
 
@@ -409,19 +426,19 @@
 2. การสร้างเอกสาร Budget Carry Forward
 3. ตรวจสอบข้อมูลเอกสาร Budget Carry Forward และยกยอดงบประมาณ
 
-### ขั้นตอนการหยุดใช้งบประมาณบนระบบ
+### การหยุดใช้งบประมาณบนระบบ
 
 เข้าระบบเพื่อหยุดการใช้งบประมาณทั้งหมด โดยทำตามขั้นตอน ดังนี้
 
 **Menu ::** Budgeting > Budgeting > Budget Control Sheet
 
 1. เข้าไปที่หน้า Budget Control Sheet และเลือก Budget Control Sheet ทั้งหมด
-2. กดปุ่ม Action 
-3. กดปุ่ม Cancel เพื่อเปลี่ยนสถานะเอกสารเป็น Cancel เพื่อหยุดการใช้งบประมาณ
+2. กดปุ่ม "Action" 
+3. กดปุ่ม "Cancel" เพื่อเปลี่ยนสถานะเอกสารเป็น Cancel เพื่อหยุดการใช้งบประมาณ
 
 ![](img/7_budget_carry_forward/cancel_budget_control.png)
 
-## ขั้นตอนการสร้างเอกสาร Budget Carry Forward
+### การสร้างเอกสาร Budget Carry Forward
 
 **Menu ::** Budgeting > Budgeting > Budget Carry Forward
 
@@ -513,7 +530,7 @@
     กรณีเลือก Method เป็น New Analytic แล้วต้องการให้ระบบช่วยใส่ Carry Forward Analytic Account ให้สามารถใช้การกดปุ่ม "Prepare carry forward analytic account" ได้
     ![](img/7_budget_carry_forward/prepare_aa.png)
 
-### ขั้นตอนการตรวจสอบข้อมูลเอกสาร Budget Carry Forward และยกยอดงบประมาณ
+### การตรวจสอบข้อมูลเอกสาร Budget Carry Forward และยกยอดงบประมาณ
 
 **Menu ::** Budgeting > Budgeting > Budget Carry Forward
 
@@ -530,10 +547,8 @@
     2. หากต้องการแก้ไข กดปุ่ม "Cancel"
     ![](img/7_budget_carry_forward/preview.png)
 
-### วิธีการดูรายงานหลังจากทำ Budget Carry Forward เสร็จสิ้น
-
-1. รายละเอียดแสดง Commitment ทั้งหมด สามารถดูได้ที่ Budget Monitoring
+!!! Note "การดูรายงานหลังจากทำ Budget Carry Forward เสร็จสิ้น"       
+    1. รายละเอียดแสดง Commitment ทั้งหมด สามารถดูได้ที่ Budget Monitoring
     ![](img/7_budget_carry_forward/monitoring.png)
-
-2. ยอดรวมทั้งหมดที่ยกไปในปีงบประมาณถัดไป สามารถดูได้ที่หน้า Analytic Account ที่คอมลัมน์ Initial Amount จะแสดงถึง ยอดคงเหลือยกมา และ Commitment
+    2. ยอดรวมทั้งหมดที่ยกไปในปีงบประมาณถัดไป สามารถดูได้ที่หน้า Analytic Account ที่คอมลัมน์ Initial Amount จะแสดงถึง ยอดคงเหลือยกมา และ Commitment
     ![](img/7_budget_carry_forward/analytic_account.png)
