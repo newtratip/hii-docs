@@ -13,6 +13,7 @@
 - สำหรับพนักงานที่อยู่ในฝ่ายแผน ต้องมีสิทธิ์เป็น Budget Manager และ Project Manager
 
 ![](img/set_user_budget.png)
+
 ![](img/set_user_project.png)
 
 ## 2. การตั้งค่าโมดูล Budgeting
