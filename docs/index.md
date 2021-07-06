@@ -1,4 +1,4 @@
 # Home
 
-1. [แผนการดําเนินงานโครงการ](deliverable_1)
-2. [ระบบบริหารงบประมาณ (Budgeting Management System)](deliverable_2)
+1. แผนการดําเนินงานโครงการ
+2. [ระบบบริหารงบประมาณ (Budgeting Management System)](deliverable_2/1_budget/bg1_overview.md)
