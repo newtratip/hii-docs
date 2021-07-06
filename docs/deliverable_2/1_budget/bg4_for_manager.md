@@ -62,22 +62,19 @@
 
     ![](img/1_master_data/create_aa.png)
 
-!!! Note 
-    Project สถานะ  Confirmed เท่านั้นถึงจะสามารถสร้าง Analytic Account ได้
-
 2. ระบบแสดงหน้าต่าง
     1. Budget Period: เลือกปีงบประมาณของ Analytic Account
     2. กดปุ่ม "Create Analytic Account"
+
     ![](img/1_master_data/create_aa4.png)
 
-3.  ระบบจะสร้างและไปยังหน้า Analytic Account
+3.  ระบบจะสร้างและไปยังหน้า Analytic Account ซึ่งจะแสดง Analytic Account ที่เพิ่งสร้าง
 
     ![](img/1_master_data/create_aa_3.png)
 
-4.  สิ้นสุดกระบวนการสร้าง Project และ Analytic Account
-
-!!! Note
-    Analytic Account จากฝ่าย (Department) จะถูกสร้างขึ้นอัตโนมัติ
+!!! Note 
+    - Project สถานะ  Confirmed เท่านั้นถึงจะสามารถสร้าง Analytic Account ได้
+    - Analytic Account จากฝ่าย (Department) จะถูกสร้างขึ้นอัตโนมัติ
 
 **สิ้นสุดการสร้าง Analytic Account**
 
@@ -88,8 +85,7 @@
 1. กดปุ่ม "Create" เพื่อสร้าง Source of Fund ใหม่ และกรอกรายละเอียด
     1. ตั้งชื่อแหล่งทุน
     2. เลือกกลุ่มของแหล่งทุน
-    3. ตารางแสดงเงื่อนไขการกำหนดแหล่งทุน (Fund Constraint) ระบบจะแสดงให้อัตโนมัติ จากการทำงานที่หน้า Program Allocation
-    4. Objective: วัตถุประสงค์ของแหล่งทุน (ถ้ามี)
+    3. Objective: วัตถุประสงค์ของแหล่งทุน (ถ้ามี)
 
     ![](img/1_master_data/create_sof.png)
 
@@ -212,7 +208,7 @@
 
 **สิ้นสุดการทำงานที่หน้า Budget Plan**
 
-### การพิ่ม Analytic Tags หลังจากที่มีการแจกกรอบงบประมาณไปแล้ว
+### การเพิ่ม Analytic Tags หลังจากที่มีการแจกกรอบงบประมาณตอนต้นปีไปแล้ว
 
 !!! Tip "สำหรับ Use Cases"
     * (1) การโอนงบประมาณให้ Cost Center ที่ไม่เคยได้รับการจัดสรรงบประมาณตอนต้นปี
@@ -222,12 +218,14 @@
 1. ที่เมนู Budget Allocation ตรวจสอบสถานะของเอกสาร จะอยู่ที่ Confirmed
     1. กดปุ่ม "Set to draft" เพื่อเปลี่ยนสถานะเอกสารจาก Confirmed เป็น Draft
     2. กดปุ่ม "Edit" เพื่อใส่ Analytic Tags
+    
     ![](img/2_budget_allocation/edit_allocation_1.png)
 
 2. กด "Add a line" เพื่อเพิ่ม Analytic Tags ให้กับ Cost Center ที่ยังไม่เคยมี Analytic Tags
     1. เลือก Fund
     2. เลือก Analytic Account
     3. เลือก Analytic Tags
+    
     ![](img/2_budget_allocation/edit_allocation_2.png)
 
 3. กดปุ่ม "Save" ตรวจสอบข้อมูล
@@ -306,9 +304,8 @@
         
 **Menu ::** Budgeting > Budgeting > Budget Plan
 
-1. เลือก Budget Plan (Revision 0) ที่สร้างจาก Budget Allocation ตอนต้นปี สถานะเอกสารอยู่ที่ Done
-      - กดปุ่ม "New Revision" 
-        ![revision 0](img/4_keep_v0/revision0.png)
+1. เลือก Budget Plan (Revision 0) ที่สร้างจาก Budget Allocation ตอนต้นปี สถานะเอกสารอยู่ที่ Done แล้วกดปุ่ม "New Revision" 
+    ![revision 0](img/4_keep_v0/revision0.png)
 2. ระบบจะสร้าง Budget Plan (Revision 1) สถานะเอกสารอยู่ที่ Draft (เจ้าหน้าที่แผนจะทำรายการต่อไม่ได้จนกว่าจะได้รับการ Verify จากหัวหน้างานยุทธศาสตร์แผนงานและงบประมาณ)
       - เมื่อได้รับการ Verify เสร็จแล้วระบบจะส่งเอกสารสู่ขั้นตอนการอนุมัติโดย ผสสน.
         ![verify done](img/4_keep_v0/request_tier.png)
@@ -359,8 +356,7 @@
 3. ระบบสร้าง Budget Plan Version ใหม่
     ![](img/6_budget_revision/new_revision2.png)
 
-4. ไปที่ **Menu ::** Budgeting > Budgeting > Budget Allocation เพื่อแก้ไขกรอบงบประมาณใหม่ตามกรอบงบประมาณที่ได้รับการอนุมัติจากการประชุม
-    - กดปุ่ม "Reset to draft" เพื่อเริ่มแก้ไขกรอบงบประมาณ
+4. ไปที่ **Menu ::** Budgeting > Budgeting > Budget Allocation เพื่อแก้ไขกรอบงบประมาณใหม่ตามกรอบงบประมาณที่ได้รับการอนุมัติจากการประชุม หลังจากนั้น กดปุ่ม "Reset to draft" เพื่อเริ่มแก้ไขกรอบงบประมาณ
     ![](img/6_budget_revision/budget_allocation.png)
 
 5. เริ่มการแก้ไขกรอบงบประมาณ
@@ -398,6 +394,7 @@
     ![](img/6_budget_revision/Selection_358.png)
 
 10. กดปุ่ม "Done" เพื่อสิ้นสุดการปรับแผน สถานะเอกสารเปลี่ยนจาก Confirmed เป็น Done
+    
     ![](img/6_budget_revision/Selection_359.png)
 
 #### การขยายเวลา Analytic Account ที่ถูก Extend
@@ -509,18 +506,15 @@
 
     ![](img/7_budget_carry_forward/carry_forward_available_line.png)
 
-    ตัวอย่างการยกยอดงบประมาณ
-    1. การยกยอดโครงการที่มีระยะเวลาดำเนินโครงการมากกว่า 1 ปี โดยยกเงินคงเหลือไปทำโครงการต่อในปีถัดไป
-    2. การขยายระยะเวลาการดำเนินโครงการ
-    3. การยกเงินคงเหลือทั้งหมดไปเก็บที่ Analytic Account เงินสะสม โดยที่ไม่มีการดำเนินโครงการต่อในปีงบประมาณถัดไป
-
-    ![](img/7_budget_carry_forward/eg.png)
-
-    !!! Note
-        ในแต่ละบรรทัดระบบจะดึง default ของ Method กับ Accumulate Analytic Account จากด้านบนเอกสาร
+    !!! Note "ตัวอย่างการยกยอดงบประมาณ"
+        1. การยกยอดโครงการที่มีระยะเวลาดำเนินโครงการมากกว่า 1 ปี โดยยกเงินคงเหลือไปทำโครงการต่อในปีถัดไป
+        2. การขยายระยะเวลาการดำเนินโครงการ
+        3. การยกเงินคงเหลือทั้งหมดไปเก็บที่ Analytic Account เงินสะสม โดยที่ไม่มีการดำเนินโครงการต่อในปีงบประมาณถัดไป
+        ![](img/7_budget_carry_forward/eg.png)
 
     !!! Note
-        ถ้าเลือก Method เป็น Extend ไม่ต้องเลือก Carry Forward Analytic Account แต่ถ้าเลือก Method เป็น New Analytic ต้องเลือก Carry Forward Analytic Account
+        - ในแต่ละบรรทัดระบบจะดึง default ของ Method กับ Accumulate Analytic Account จากด้านบนเอกสาร
+        - ถ้าเลือก Method เป็น Extend ไม่ต้องเลือก Carry Forward Analytic Account แต่ถ้าเลือก Method เป็น New Analytic ต้องเลือก Carry Forward Analytic Account
 
 5. ตรวจสอบข้อมูล
     - หากถูกต้องครบถ้วนกดปุ่ม "Save"
@@ -537,12 +531,11 @@
 หลังจากผ่านการ Verify จากหัวหน้างานยุทธศาสตร์แผนงานและงบประมาณ สถานะเอกสารเปลี่ยนจาก To Verify เป็น Verify
     ![](img/7_budget_carry_forward/state_verify.png)
 ทำการยกยอดงบประมาณต่อ ดังนี้
+
 1. เลือกเอกสาร Budget Carry Forward ที่ต้องการ
 2. กดปุ่ม "Carry Budget Forward"
-
-![](img/7_budget_carry_forward/carry_budget_forward.png)
-
-4. ระบบแสดงหน้าต่างให้ตรวจสอบตัวเลขการยกยอดงบประมาณอีกครั้ง
+    ![](img/7_budget_carry_forward/carry_budget_forward.png)
+3. ระบบแสดงหน้าต่างให้ตรวจสอบตัวเลขการยกยอดงบประมาณอีกครั้ง
     1. หากถูกต้องครบถ้วน กดปุ่ม "Carry Budget Forward" เพื่อยกยอดงบประมาณ
     2. หากต้องการแก้ไข กดปุ่ม "Cancel"
     ![](img/7_budget_carry_forward/preview.png)
