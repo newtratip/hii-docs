@@ -53,11 +53,17 @@ End.
     !!! Note 
         - ในระหว่างนี้ ทางพัสดุอาจมีการปรับแก้ข้อตกลงจาก Vendor บน RFQ เหล่านี้
 
-3. เข้าไป RFQ ที่เลือก ส่ง Email ไปถึง Vendor (ถ้ามี) เช่น ขอนัดหมายวันลงนามในสัญญา
+3. เข้าไป RFQ ที่เลือก ส่ง Email ไปถึง Vendor (ถ้ามี) เช่น ขอนัดหมายวันลงนามในสัญญา 
 ![](img/rfq_send_by_email_1.png)
 ![](img/rfq_send_by_email_2.png)
 
-4. Confirm RFQ สถานะจะถูกเปลี่ยนเป็น Purchase Order และ RFQ ใบอื่นจะเปลี่ยนสถานะเป็น Cancelled
+4. ส่งเอกสาร RFQ เข้ากระบวนการอนุมัติจัดซื้อจัดจ้าง
+    1. สำหรับ RFQ ที่เลือก ให้กดปุ่ม Request Validation
+    ![](img/rfq_request_validation.png)
+    2. เอกสารนี้จะเข้ากระบวนการอนุมัติ ซึ่งตารางการอนุมัติจะแสดงอยู่ที่ด้านล่างของเอกสาร
+    ![](img/rfq_request_validation2.png)
+    
+5. Confirm RFQ สถานะจะถูกเปลี่ยนเป็น Purchase Order และ RFQ ใบอื่นจะเปลี่ยนสถานะเป็น Cancelled
 ![](img/rfq_confirm.png)
 
 End.
