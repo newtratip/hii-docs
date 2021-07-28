@@ -39,10 +39,11 @@
     3. Quantity: จำนวนที่ต้องการ
     4. Analytic Account: ชื่อโครงการหรือชื่อหน่วยงานที่ต้องการใช้งบประมาณ
     5. Fund: ชื่อแหล่งทุนของโครงการหรือหน่วยงานที่ใช้งบประมาณ
-    6. Requested Date: วันที่ต้องการ
-    7. Estimated Cost: งบประมาณ
+    6. Analytic Tgas: ข้อมูลกลุ่มงบประมาณ, แผนงาน, ประเภทงบประมาณ
+    7. Requested Date: วันที่ต้องการ
+    8. Estimated Cost: งบประมาณ
 
-    ![](img/1_pr_product_line.png)
+    ![](img/1_pr_product_line_fix.png)
 
     <br/>
 
