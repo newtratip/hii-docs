@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../../img/favicon.ico" rel="shortcut icon"/>
+<title>Procurement Process » Procurement Officer - Odoo for HII</title>
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" rel="stylesheet">
+<link href="../../../css/theme.css" rel="stylesheet"/>
+<link href="../../../css/theme_extra.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" rel="stylesheet"/>
+<script>
+    // Current page data
+    var mkdocs_page_name = "Procurement Process \u00bb Procurement Officer";
+    var mkdocs_page_input_path = "deliverable_3/2_procurement/po3_for_procurement_officer.md";
+    var mkdocs_page_url = null;
+  </script>
+<script defer="" src="../../../js/jquery-2.1.1.min.js"></script>
+<script defer="" src="../../../js/modernizr-2.8.3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</link><link href="../../../pdf/document.pdf" rel="alternate" title="PDF" type="application/pdf"/></head>
+<body class="wy-body-for-nav" role="document">
+<div class="wy-grid-for-nav">
+<nav class="wy-nav-side stickynav" data-toggle="wy-nav-shift">
+<div class="wy-side-scroll">
+<div class="wy-side-nav-search">
+<a class="icon icon-home" href="../../.."> Odoo for HII</a>
+<div role="search">
+<form action="../../../search.html" class="wy-form" id="rtd-search-form" method="get">
+<input name="q" placeholder="Search docs" title="Type search term here" type="text"/>
+</form>
+</div>
+</div>
+<div aria-label="main navigation" class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation">
+<p class="caption"><span class="caption-text">[[Deliverable 2 - Budgeting]]</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../deliverable_2/1_budget/bg1_overview/">Overview</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../deliverable_2/1_budget/bg2_config/">System Config</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../deliverable_2/1_budget/bg3_for_user/">Budget User</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../deliverable_2/1_budget/bg4_for_manager/">Budget Manager</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../deliverable_2/1_budget/bg5_for_approver/">Budget Approver</a>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">[[Deliverable 3 - Procurement]]</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../">Overview</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../1_purchase_request/pr1_overview/">Purchase Request » Overview</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../1_purchase_request/pr2_config/">Purchase Request » System Config</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../1_purchase_request/pr3_for_employee/">Purchase Request » Employee</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../1_purchase_request/pr4_for_procurement_head/">Purchase Request » Procurement Head</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../po1_overview/">Procurement Process » Overview</a>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../po2_config/">Procurement Process » System Config</a>
+</li>
+<li class="toctree-l1 current"><a class="reference internal current" href="./">Procurement Process » Procurement Officer</a>
+<ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="#purchase-agreementte-pr">สร้างเอกสารการเสนอราคา Purchase Agreement/TE จาก PR</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#rfq-purchase-agreementte">สร้างใบเสนอราคา RFQ (จาก Purchase Agreement/TE)</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#wa-po-paperless-wa">สร้างเอกสารตรวจรับวัสดุ WA จาก PO (ตรวจรับแบบ Paperless WA)</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#_2">คณะกรรมกรรการทำการตรวจรับในระบบ</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#wa-accepted">เจ้าหน้าที่พัสดุเปลี่ยนสถานะเอกสาร WA เป็น Accepted</a>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#_3">ส่งอีเมล์ใบตรวจรับถึงคู่ค้า เพื่อแจ้งผลการตรวจรับ</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<section class="wy-nav-content-wrap" data-toggle="wy-nav-shift">
+<nav aria-label="top navigation" class="wy-nav-top" role="navigation">
+<i class="fa fa-bars" data-toggle="wy-nav-top"></i>
+<a href="../../..">Odoo for HII</a>
+</nav>
+<div class="wy-nav-content">
+<div class="rst-content">
+<div aria-label="breadcrumbs navigation" role="navigation">
+<ul class="wy-breadcrumbs">
+<li><a href="../../..">Docs</a> »</li>
+<li>[[Deliverable 3 - Procurement]] »</li>
+<li>Procurement Process » Procurement Officer</li>
+<li class="wy-breadcrumbs-aside">
+<a class="icon icon-github" href="https://github.com/ecosoft-odoo/eco_mkdocs/edit/master/docs/deliverable_3/2_procurement/po3_for_procurement_officer.md"> Edit on GitHub</a>
+</li>
+</ul>
+<hr/>
+</div>
+<div role="main">
+<div class="section">
+<h1 id="_1">กระบวนการจัดซื้อจัดจ้าง<a class="headerlink" href="#_1" title="Permanent link">#</a></h1>
+<p><strong>เอกสารนี้สำหรับ ::</strong> เจ้าหน้าที่พัสดุ (Procurement Officer)</p>
+<h2 id="purchase-agreementte-pr">สร้างเอกสารการเสนอราคา Purchase Agreement/TE จาก PR<a class="headerlink" href="#purchase-agreementte-pr" title="Permanent link">#</a></h2>
+<p><strong>Menu ::</strong> Purchase &gt; Orders &gt; Purchase Requests</p>
+<ol>
+<li>
+<p>ค้นหารายการ Purchase Request เพื่อสร้าง Purchase Agreement</p>
+<ol>
+<li>เอกสารอนุมัติแล้ว (Approved)</li>
+<li>เอกสารได้รับการมอบหมาย (Purchase Responsible)</li>
+<li>คลิกที่ action, Create Purchase Agreemnt</li>
+<li>ตรวจสอบ Product และ Quantity และกดปุ่ม Create Purchase Agreement</li>
+</ol>
+<p><img alt="" src="../img/te_create_te.png"/></p>
+<p><img alt="" src="../img/te_create_te2.png"/></p>
+<p>ระบบจะพาไปยังเอกสาร Purchase Agreement (TE) ที่ถูกสร้างขึ้นใหม่ ให้คลิกเพื่อเปิดเอกสาร</p>
+<p><br/></p>
+</li>
+<li>
+<p>ตรวจสอบความถูกต้อง และยืนยันเอกสาร TE</p>
+<ol>
+<li>ที่ TE นี้จะเห็น Link กลับไปที่ PR ได้ (ที่ PR จะมี Link กลับมาที่ TE เช่นกัน)</li>
+<li>Purchase Responsible: จะเป็นชื่อของเจ้าหน้าที่พัสดุ (เปลี่ยนแปลงได้หากต้องการโยกงาน)</li>
+<li>Quantity: จำนวนขอซื้อ</li>
+<li>Unit Price: ราคาต่อ 1 หน่วย</li>
+<li>กดปุ่ม Confirm เพื่อยืนยันเอกสาร</li>
+</ol>
+<p><img alt="" src="../img/te_confirm.png"/></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li>เอกสาร TE เป็นเสมือนเอกสารตั้งต้นเพื่อเป็นตัวช่วยในการสร้างและติดตาม RFQ ทั้งหมดที่เกี่ยวข้องกับการจัดซื้อจัดจ้างนี้</li>
+</ul>
+</div>
+</li>
+</ol>
+<p>End.</p>
+<hr/>
+<h2 id="rfq-purchase-agreementte">สร้างใบเสนอราคา RFQ (จาก Purchase Agreement/TE)<a class="headerlink" href="#rfq-purchase-agreementte" title="Permanent link">#</a></h2>
+<p><strong>Menu ::</strong> Purchase &gt; Orders &gt; Purchase Agreements</p>
+<ol>
+<li>ค้นหาเลขที่ TE ที่ต้องการบันทึกใบเสนอราคาจากผู้ขาย/ผู้ให้บริการ และเปิดเอกสาร TE</li>
+<li>
+<p>สร้าง RFQ ตามเอกสารใบเสนอราคาที่ได้รับจากผู้ขาย/ผู้ให้บริการ</p>
+<ol>
+<li>กดปุ่ม New Quotation เพื่อสร้าง RFQ สำหรับแต่ละ Vendor
+<img alt="" src="../img/te_create_rfq.png"/></li>
+<li>ที่หน้าต่าง New RFQ ทำการเลือก Vendor</li>
+<li>ปรับยอดเงินตามที่ได้รับข้อเสนอจาก Vendor ที่เลือก</li>
+<li>ย้อนกลับไปที่ TE เพื่อสร้าง RFQ เพิ่มเติมจนครบ (ยังไม่ต้อง Confirm เอกสาร)
+<img alt="" src="../img/1_po_new_rfq.png"/></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li>ในระหว่างนี้ ทางพัสดุอาจมีการปรับแก้ข้อตกลงจาก Vendor บน RFQ เหล่านี้</li>
+</ul>
+</div>
+</li>
+<li>
+<p>เข้าไป RFQ ที่เลือก ส่ง Email ไปถึง Vendor (ถ้ามี) เช่น ขอนัดหมายวันลงนามในสัญญา 
+<img alt="" src="../img/rfq_send_by_email_1.png"/>
+<img alt="" src="../img/rfq_send_by_email_2.png"/></p>
+</li>
+<li>
+<p>ส่งเอกสาร RFQ เข้ากระบวนการอนุมัติจัดซื้อจัดจ้าง</p>
+<ol>
+<li>สำหรับ RFQ ที่เลือก ให้กดปุ่ม Request Validation
+<img alt="" src="../img/rfq_request_validation.png"/></li>
+<li>เอกสารนี้จะเข้ากระบวนการอนุมัติ ซึ่งตารางการอนุมัติจะแสดงอยู่ที่ด้านล่างของเอกสาร
+<img alt="" src="../img/rfq_request_validation2.png"/></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul>
+<li>เอกสาร RFQxxx ที่ส่งเข้ารับการอนุมัติ ในภายหลังเมื่อได้รับการอนุมัติแล้ว<ul>
+<li>เอกสารจะเปลี่ยนสถานะเป็น Purchase Order และเลขที่เอกสารจะปลี่ยนเป็น POxxx</li>
+<li>และในเวลาเดียวกัน RFQ อื่นในจะถูกยกเลิก และบันทึกเหตุผลการยกเลิก "ไม่ได้รับการคัดเลือก"</li>
+</ul>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+<p>End.</p>
+<hr/>
+<h2 id="wa-po-paperless-wa">สร้างเอกสารตรวจรับวัสดุ WA จาก PO (ตรวจรับแบบ Paperless WA)<a class="headerlink" href="#wa-po-paperless-wa" title="Permanent link">#</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>ขั้นตอนนี้เกิดขึ้นในวันที่มีการตรวจรับจริง</p>
+</div>
+<p><strong>Menu ::</strong> Purchase &gt; Orders &gt; Purchase Orders</p>
+<ol>
+<li>เลือก Purchase Order ที่ผ่านการอนุมัติแล้วที่ต้องการสร้างเอกสารตรวจรับ WA</li>
+<li>
+<p>กดปุ่ม Create WA ระบบจะพาไปยังหน้าต่าง Work Acceptace พร้อมข้อมูลตั้งต้นจาก PO</p>
+<ol>
+<li>กดปุ่ม Save เพื่อสร้างเอกสาร WA</li>
+<li>แก้ไขข้อมูลการตรวจรับ ตามจำนวนที่รับจริง (Quantity)</li>
+<li>Due Date คือวันที่กำหนดส่งจาก Vendor</li>
+<li>Received Date คือวันที่ได้ตรวจรับจริง (มีผลกับค่าปรับ)
+  <img alt="" src="../img/po_create_wa.png"/></li>
+</ol>
+</li>
+<li>
+<p>ประเมินผลการตรวจรับ (Evaluation)</p>
+<ol>
+<li>ให้คะแนนตามคุณภาพวัสดุส่งมอบในแต่ละหัวจ้อ</li>
+<li>เพิ่มเติมหมายเหตุตามต้องการ
+  <img alt="" src="../img/wa_evaluation.png"/></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>แต่ละหัวข้อการให้คะแนนสามารถปรับเปลี่ยนและตั้งค่าได้ว่าจำเป็นต้องใส่หรือไม่</p>
+</div>
+</li>
+<li>
+<p>ประเมินค่าปรับ (Late Fines)</p>
+<ol>
+<li>Late Days หรือจำนวนวันที่ล่าช้า คำนวนจากวันส่งจริง และวันที่กำหนดส่ง (Received Date - Due Date)
+  <img alt="" src="../img/wa_late_fine.png"/></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>สำหรับ WA ที่มีค่าปรับจะมีปุ่มเพื่อให้สามารถสร้างใบแจ้งหน้าค่าปรับได้ (เฉพาะผู้ใช้งานที่มีสิทธิ์ในโมดูล Accounting) หรือจะเลือกสร้างจากหน้าต่าง Customer Invoice ก็ได้เช่นกัน
+<img alt="" src="pix/wa_late_fine_invoice.png"/></p>
+</div>
+</li>
+<li>
+<p>ตรวจสอบ คณะกรรมการตรวจรับ (Committee)</p>
+<ol>
+<li>รายชื่อคณะกรรมการตรวจรับระบบดึงมาจากเอกสาร Purchase Request ตั้งต้น
+  <img alt="" src="pix/wa_committee.png"/></li>
+</ol>
+</li>
+<li>กดปุ่ม "Request Validation" คณะกรรมการจะเข้ามาในระบบเพื่อบันทึกการตรวจรับพร้อมหมายเหตุ</li>
+</ol>
+<p>End.</p>
+<hr/>
+<h2 id="_2">คณะกรรมกรรการทำการตรวจรับในระบบ<a class="headerlink" href="#_2" title="Permanent link">#</a></h2>
+<p><strong>Menu ::</strong> ไม่มีเมนู สามารถเข้าทาง inbox ส่วนตัว</p>
+<ol>
+<li>คณะกรรมการทำการตรวจรับในระบบ<ol>
+<li>กรรมการแต่ละคนเข้าถึงเอกสารที่ต้องตรวจรับ (Reviews Inbox)
+        <img alt="" src="../img/wa_tier_inbox.png"/></li>
+<li>เลือกผลการตรวจรับ<ol>
+<li>Validate: รับ</li>
+<li>Reject: ไม่รับ</li>
+<li>Others: อื่นๆและบอกเหตุผลเช่น ไม่เข้าร่วม
+    <img alt="" src="../img/wa_tier_approve.png"/></li>
+</ol>
+</li>
+<li>ผลที่ได้จะกลับไปอัพเดทที่ตาราง Work Acceptance Committee
+        <img alt="" src="pix/"/></li>
+</ol>
+</li>
+</ol>
+<p>End.</p>
+<hr/>
+<h2 id="wa-accepted">เจ้าหน้าที่พัสดุเปลี่ยนสถานะเอกสาร WA เป็น Accepted<a class="headerlink" href="#wa-accepted" title="Permanent link">#</a></h2>
+<p><strong>Menu ::</strong> Purchase &gt; Orders &gt; Work Acceptance</p>
+<ol>
+<li>
+<p>ตรวจสอบสถานะของเอกสาร WA บบ Paperless ในระบบ</p>
+<ol>
+<li>ใช้ตัวกรอง Filter ช่วยหาเอกสารที่เป็น Paperless หรือสถานะ Committee</li>
+<li>เอกสารที่่ผ่านการอนุมัติแบบ Paperless จะมีสีเขียนเมื่อผ่านการอนุมัติแล้ว และสีแดงเมื่อมีการปฏิเสธ
+        <img alt="" src="../img/wa_paperless_process.png"/></li>
+</ol>
+</li>
+<li>
+<p>ทำการอนุมัติ Accept เอกสาร WA ที่ผ่านการอนุมัติแล้ว (รายการสีเขียว)</p>
+<ol>
+<li>กดปุ่ม Accept เพื่อจบการตรวจรับ
+        <img alt="" src="../img/wa_paperless_accept.png"/></li>
+</ol>
+</li>
+</ol>
+<p>End.</p>
+<hr/>
+<h2 id="_3">ส่งอีเมล์ใบตรวจรับถึงคู่ค้า เพื่อแจ้งผลการตรวจรับ<a class="headerlink" href="#_3" title="Permanent link">#</a></h2>
+<ol>
+<li>หลังจากเปลี่ยนสถานะ WA เป็น Accpeted แล้วจะมีปุ่ม Send By Email
+    <img alt="" src="../img/wa_send_email.png"/></li>
+<li>ระบบแสดงร่างอีเมล์ และสามารถแก้ไขข้อความได้ เมื่อตรวจสอบเนื้อหาเสร็จสิ้น กด Send เพื่อส่งอีเมล์
+    <img alt="" src="../img/wa_send_email2.png"/></li>
+</ol>
+<p>End.</p>
+</div>
+</div>
+<footer>
+<div aria-label="footer navigation" class="rst-footer-buttons" role="navigation">
+<a class="btn btn-neutral" href="../po2_config/" title="Procurement Process » System Config"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+</div>
+<hr/>
+<div role="contentinfo">
+<!-- Copyright etc -->
+<p>Copyright © 2021 Ecosoft Co., Ltd.</p>
+</div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+</div>
+</div>
+</section>
+</div>
+<div aria-label="versions" class="rst-versions" role="note">
+<span class="rst-current-version" data-toggle="rst-current-version">
+<span>
+<a class="fa fa-github" href="https://github.com/ecosoft-odoo/eco_mkdocs/" style="color: #fcfcfc"> GitHub</a>
+</span>
+<span><a href="../po2_config/" style="color: #fcfcfc">« Previous</a></span>
+</span>
+</div>
+<script>var base_url = '../../..';</script>
+<script defer="" src="../../../js/theme_extra.js"></script>
+<script defer="" src="../../../js/theme.js"></script>
+<script defer="" src="../../../search/main.js"></script>
+<script defer="">
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+</body>
+</html>
